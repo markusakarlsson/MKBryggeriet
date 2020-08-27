@@ -13,9 +13,9 @@ body {
 .container {
     max-width: 60rem;
     flex-grow: 1;
-    /* display: flex; */
+    display: flex;
     justify-content: center;
-    /* flex-direction: column; */
+    flex-direction: column;
 }
 
 .container main {
@@ -43,28 +43,54 @@ p {
 }
 
 header {
-    height: 10rem;
+    /* margin-top: 0; */
+    height: 12rem;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-around;
+    /* align-content: center; */
     background-color: white;
-    /* position: fixed; */
+    position: fixed;
+    align-items: center;
+    /* opacity: 0.99; */
+    /* border-bottom: 2px solid rgb(21, 44, 79) */
+}
+
+header h3 {
+    color: rgb(21, 44, 79);
+}
+
+header h3:hover {
+    color: rgb(243, 146, 0);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
 }
 
 header img {
     height: 9rem;
     width: 22.5rem;
     margin-top: 1rem;
+    /* margin-bottom: 2rem; */
     /* opacity: 1; */
 }
 
 main {
-    margin-top: 2rem;
-    width: 100%;
+    margin-top: 10rem;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     /* flex-direction: column; */
+}
+
+ /* .about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+.textContainer {
+    max-width: 40rem;
+    display: inline-flex;
 }
 
 .about img {
@@ -127,4 +153,5 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* opacity: 0.9; */
 }
