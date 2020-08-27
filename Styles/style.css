@@ -58,12 +58,13 @@ header {
 
 header h3 {
     color: rgb(21, 44, 79);
+    transition: all .2s ease-in-out;
 }
 
 header h3:hover {
     /* color: rgb(243, 146, 0); */
     cursor: pointer;
-    transition: all .2s ease-in-out;
+    
     transform: scale(1.1);
 }
 
