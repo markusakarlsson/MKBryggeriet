@@ -65,7 +65,7 @@ header h3:hover {
 header img {
     height: 9rem;
     width: 22.5rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 .container main {
