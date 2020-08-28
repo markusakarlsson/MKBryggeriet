@@ -1,138 +1,136 @@
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-    color: rgb(21, 44, 79);
-    font-size: 11pt;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  color: rgb(21, 44, 79);
+  font-size: 11pt;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 h1 {
-    margin-top: 5rem;
-    margin-bottom: 0.1rem;
-    letter-spacing: 0.2rem;
-    font-size: 29pt;
-    color: rgb(243, 146, 0);
+  margin-top: 5rem;
+  margin-bottom: 0.1rem;
+  letter-spacing: 0.2rem;
+  font-size: 29pt;
+  color: rgb(243, 146, 0);
 }
-                                            
+
 h3 {
-    margin: 0;
-    font-size: 18pt;
-    color: rgb(249, 178, 51);
+  margin: 0;
+  font-size: 18pt;
+  color: rgb(249, 178, 51);
 }
-                                            
+
 p {
-    font-family: minion-pro,serif;
+  font-family: minion-pro, serif;
 }
 
 .container {
-    max-width: 66rem;
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  max-width: 66rem;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .headerContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
 header {
-    height: 12rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    position: fixed;
-    align-items: center;
+  height: 12rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  position: fixed;
+  align-items: center;
 }
 
 header h3 {
-    color: rgb(21, 44, 79);
-    transition: all .2s ease-in-out;
+  color: rgb(21, 44, 79);
+  transition: all 0.2s ease-in-out;
 }
 
 header h3:hover {
-    cursor: pointer;
-    transform: scale(1.05);
+  cursor: pointer;
+  transform: scale(1.05);
 }
 
 header img {
-    height: 9rem;
-    width: 22.5rem;
-    /* margin-top: 1rem; */
+  height: 9rem;
+  width: 22.5rem;
 }
 
 .container main {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 main {
-    margin-top: 10rem;
-    display: flex;
-    justify-content: center;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
 }
 
 .textContainer {
-    max-width: 40rem;
-    display: inline-flex;
+  max-width: 40rem;
+  display: inline-flex;
 }
 
 .about img {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    width: 28.5rem;
-    height: 19rem;
-    justify-content: center;
-    object-fit: cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  width: 28.5rem;
+  height: 19rem;
+  justify-content: center;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 main img {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    width: 21.5rem;
-    height: 17.1rem;
-    justify-content: center;
-    object-fit: cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 21.5rem;
+  height: 17.1rem;
+  justify-content: center;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 i {
-    color: rgb(243, 146, 0);
-    font-size: 3rem;
-    cursor: pointer;
-    transition: all .2s ease-in-out;
+  color: rgb(243, 146, 0);
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 i:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .contact ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-    flex-direction: row;
-    margin-bottom: 3.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+  margin-bottom: 3.5rem;
 }
 
 footer {
-    height: 5rem;
-    width: 100%;
-    background-color: rgb(21, 44, 79);
-    color: rgb(249, 178, 51);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 5rem;
+  width: 100%;
+  background-color: rgb(21, 44, 79);
+  color: rgb(249, 178, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
